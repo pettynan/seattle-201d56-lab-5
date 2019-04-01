@@ -63,8 +63,8 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 
   var answer3 = [];
 
-  answer3.push(a + b + c);
-  answer3.push(a * b * c);
+  answer3[0] = sum(sum(a,b)[0],c)[0];
+  answer3[1] = multiply(multiply(a,b)[0],c)[0];
   answer3.push(a + ' and ' + b + ' and ' + c + ' sum to ' + answer3[0] + '.');
   answer3.push('The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + answer3[1] + '.');
 
