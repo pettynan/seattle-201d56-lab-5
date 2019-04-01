@@ -69,7 +69,6 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   answer3.push('The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + answer3[1] + '.');
 
   return answer3;
-
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -133,7 +132,6 @@ function multiplyArray(multArr) { //eslint-disable-line
   answer5.push('The numbers ' + multArr[0] + ',' + multArr[1] + ',' + multArr[2] + ' have a product of ' + answer5[0] + '.');
 
   return answer5;
-
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
@@ -174,7 +172,6 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
   answer6.push('The numbers ' + dynamicString + ' have a product of ' + answer6[0] + '.');
 
   return answer6;
-
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
